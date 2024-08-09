@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(240, 221, 51);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(240, 221, 51);
+}
+
+.chamada {
+    background: rgb(155, 152, 152);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+H1 {
+    font-size: 30px;
+}
+
+P {
+    font-size: px16;
+}
+
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(240, 221, 51);
+
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+
+.categoria-video img {
+    opacity: 0.5;
+    height: 150px;
+}
+
+.categoria-video img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(240, 221, 51)
+}
